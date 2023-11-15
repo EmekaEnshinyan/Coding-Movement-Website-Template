@@ -10,13 +10,22 @@ import Header from './components/Header'
 
 
 function App() {
-
+  
+  const [test, setTest] = useState(0)
   return (
     <>
       <div>
         <Header />
         <Content />
         <Footer />
+        <div>
+          <button onClick={() => setTest((check) => check += 1)}>
+            Test Button
+          </button>
+          <p>
+          test pass {test}
+          </p>
+        </div>
       </div>
 
     </>

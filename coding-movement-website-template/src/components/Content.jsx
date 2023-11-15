@@ -3,7 +3,7 @@ import React from "react";
 function Content() {
     return (
       <main>
-        <p>Welcome to my basic website built with React+Vite!</p>
+        <p>Welcome to this basic website built with React+Vite!</p>
       </main>
     );
   }
